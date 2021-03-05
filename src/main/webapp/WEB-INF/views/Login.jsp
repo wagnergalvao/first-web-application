@@ -8,8 +8,9 @@
 <title>Yahoo!!!!!!!! From JSP</title>
 </head>
 <body>
-	<% Date today = new Date();	%>
-	<div>Hoje é <%=today%></div>
-	<div>Meu nome é ${name} e minha senha é ${password}</div>
+	<form action="/login.do" method="post">
+		Digite seu  Nome: <input type="text" name = "name"/>
+		<input type="submit"/>
+	</form>
 </body>
 </html>
