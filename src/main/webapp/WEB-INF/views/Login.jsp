@@ -8,13 +8,8 @@
 <title>Yahoo!!!!!!!! From JSP</title>
 </head>
 <body>
-	<%
-		Date today = new Date();
-	%>
-	<div>
-		Hoje é
-		<%=today%>
-	</div>
-	<div>Meu Primeiro JSP ${name}</div>
+	<% Date today = new Date();	%>
+	<div>Hoje é <%=today%></div>
+	<div>Meu nome é ${name} e minha senha é ${password}</div>
 </body>
 </html>
